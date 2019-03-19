@@ -1,0 +1,1 @@
+# xmonit-static-site
