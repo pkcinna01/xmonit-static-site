@@ -29,8 +29,7 @@ plugins:
 #  -
 #    path: ""
 #    type: posts
-#    categories: update
-
+    
 exclude:
   - Gemfile
   - Gemfile.lock
