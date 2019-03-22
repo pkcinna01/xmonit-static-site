@@ -1,0 +1,41 @@
+
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: X-Monit
+email: pkcinna@xmonit.com
+description: >-
+  Custom monitoring and automation software.
+  <br /><br />    
+  Services include advanced low level automation with Arduino Mega, Raspberry PI, Prometheus, OpenHAB, IFTTT, etc...
+baseurl: ""
+url: ""
+twitter_username: pkcinna01
+github_username:  pkcinna01
+facebook_username:  pkcinna01
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-clean-blog
+plugins:
+  - jekyll-feed
+
+#defaults:
+#  -
+#    path: ""
+#    type: posts
+#    categories: update
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
