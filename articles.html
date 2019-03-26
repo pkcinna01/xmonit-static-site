@@ -1,22 +1,26 @@
 ---
 layout: page
+permalink: /articles
 title: Articles
-description: 
-permalink: /articles/
-background: /assets/img/tech-background.png
+description: News and Articles
 ---
-
-<h1>Articles</h1>
 {%- for post in site.posts -%}
-  {%- if post.categories contains "article" -%}
-  <article>
-    <a href="{{ post.url }}">
-      <h3>
-        {{ post.title }}
-        <small datetime="{{ post.date | date: "%Y-%m-%d" }}"> - {{ post.date | date_to_long_string }}</small>  
-      </h3>    
-      <span class="font-italic "><small>{{ post.excerpt }}</small></span>
-    </a>    
-  </article>  
-  {%- endif -%}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+      <h4 class="post-title">{{ post.title }}</h4>
+      {% if post.subtitle %}
+      <h5 class="post-subtitle">{{ post.subtitle }}</h5>
+      {% else %}
+      <h5 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h5>
+      {% endif %}
+    </a>
+    <p class="post-meta"><small>Posted by
+      {% if post.author %}
+      {{ post.author }}
+      {% else %}
+      {{ site.author }}
+      {% endif %}
+      on
+      {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</small></p>
+  </article>
 {%- endfor -%}

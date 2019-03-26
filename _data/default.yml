@@ -1,0 +1,27 @@
+brand:
+  name: 'X-Monit'
+menu-string: MENU
+
+nav: # Navbar links
+  - title: Services
+    url: '/#services'
+  - title: About
+    url: '/#about'
+  - title: Articles
+    url: '/articles'
+  - title: Contact
+    url: '/#contact'
+
+copyright: "© 2019, XMonit.com"
+
+social-buttons: # Footer social buttons
+  - icon: "fa fa-github"
+    url: 'https://github.com/pkcinna01' 
+  - icon: "fa fa-bitbucket"
+    url: 'https://bitbucket.org/xmonit/'
+  - icon: "fa fa-twitter"
+    url: 'https://twitter.com/pkcinna01'
+  - icon: "fa fa-facebook"
+    url: 'https://www.facebook.com/pkcinna01'
+
+modal: # Modal strings for l10n

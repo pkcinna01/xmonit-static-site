@@ -1,0 +1,75 @@
+intro: # Master header text
+
+services: # Services section 
+  heading: Services
+  subheading: 'Software Development and Administration'
+  service: # List of services
+    - icon: fa-files-o
+      heading: Software
+      text: Full-Stack development with Java, C++, Scala or Kotlin leveraging frameworks like Spring, Grails, and VueJS.  Create scripts in Python, PHP, JavaScript, etc...
+    - icon: fa-area-chart
+      heading: Monitoring
+      text: Custom monitoring dashboards and alerts with Prometheus and Grafana.  Maintain or port existing Nagios and Icinga installations.
+    - icon: fa-rocket
+      heading: 'Atlassian Admin'
+      text: Install or administer Atlassian Jira, Confluence, Bitbucket, and Crowd applications.  Setup Jira workflows and sprints and integrate with Confluence.
+    - icon: fa-gears
+      heading: DevOps
+      text: Automate and streamline software builds and deploys with Jenkins, TeamCity, Docker, Artifactory, Nexus, Maven, Gradle, CMake, etc...
+    - icon: fa-gear
+      heading: Automation
+      text: Low level automation with Arduino or Raspberry PI.  Create dashboards to control and monitor devices.  Intelligently manage appliances on an Off-Grid solar system.
+    - icon: fa-globe
+      heading: Web Development
+      text: Create static websites with Jekyll or create SPA sites using VueJS and Bootstrap.  Host on Netlify, AWS, GCP, NameCheap, etc...  Administer Apache, Nginx, IIS, or Drupal.
+
+
+portfolio: # portfolio section
+  heading: [Portfolio title]
+  subheading: [Portfolio subtitle]
+
+about: # About section
+  heading: About
+  subheading: >- 
+    X-Monit was founded informally in January of 2017.  
+    Paul Cinnamond is the owner and primary software developer.  He has over 20 years experience with projects
+    in banking, telecom and the military.  Projects in these fields require thorough background checks and sometimes TSI (top secret) clearence.  X-Monit can provide affordable
+    solutions where high security or confidentiality make offshore development too risky.  Phone, Skype, or in person consultations allow X-Monit and clients to establish 
+    trust and confidence.
+  timeline: # List
+  //  - image: [Image path]
+  //    date: [Date]
+  //    title: [Title]
+  //    text: [Text]
+  //  - image: [Image path]
+  //    date: [Date]
+  //    title: [Title]
+  //    text: [Text]
+  //end1: [End bubble first line ]
+  //end2: [End bubble second line ]
+  //end3: [End bubble third line ]
+
+
+
+clients: # List of clients logos and links
+  - img: [Path to clients logo image]
+    url: '[Link to clients website]'
+  - img: [Path to clients logo image]
+    url: '[Link to clients website]'
+
+contact: # Contact Section
+  heading: "Contact Us"
+  subheading: "Questions or comments are welcome.  Free estimates."
+  btn: "Send Message"
+  name: "Your Name *"
+  name-required: "Please enter your name."
+  email: "Your Email *"
+  email-required: "Please enter your email."
+  phone: "Your Phone *"
+  phone-required: "Please enter your phone number."
+  message: "Your Message *"
+  message-required: "Please enter your message."
+  js-url: '[Contact form target]'
+  js-success: '[Translatable string]'
+  js-error: '[Translatable string]' # Attention around " + firstName + "
+  js-error-min: '[Translatable string]' # Attention around "+i+"

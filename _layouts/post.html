@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{%- assign assets_path = "assets/" -%}
+{%- if site.assets_path -%}
+  {%- assign assets_path = site.assets_path -%}
+{%- endif -%}
+    {% assign ws = '' %}
+    <!-- Header -->
+
+
+        <header class="masthead">
+ 
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="page-heading">
+                <h1>{{ page.title }}</h1>
+                {% if page.description %}
+                <span class="subheading">x{{ page.description }}</span>
+                {% else %}
+                <span class="subheading">{{ page.date | date: '%B %d, %Y' }} - <a href="/author/todo">
+                  {{page.author}}</a></span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    
+
+    <!-- Services -->
+    <section id="{{ page.url | replace_first: '/' }}" class="js-scroll-trigger.active">
+      <div class="container">
+        {{ content }}
+      </div>
+    </section>
+
