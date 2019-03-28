@@ -51,11 +51,11 @@ about: # About section
 
 
 
-clients: # List of clients logos and links
-  - img: [Path to clients logo image]
-    url: '[Link to clients website]'
-  - img: [Path to clients logo image]
-    url: '[Link to clients website]'
+//clients: # List of clients logos and links
+//  - img: [Path to clients logo image]
+//    url: '[Link to clients website]'
+//  - img: [Path to clients logo image]
+//    url: '[Link to clients website]'
 
 contact: # Contact Section
   heading: "Contact Us"

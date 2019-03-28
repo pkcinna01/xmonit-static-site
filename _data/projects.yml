@@ -1,0 +1,11 @@
+intro: # Master header text
+
+
+list:
+  - icon: fa-files-o
+    name: "EPever Tracer Modbus Java Client"
+    img: "img/epever-charge-controller.png"
+    url: "https://github.com/pkcinna01/epever-solar-modbus"
+    licenseType: GNU Open Source
+    description: Allow java, scala, or kotlin applications to communicate with EPever Tracer charge controllers in a standard way.
+

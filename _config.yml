@@ -35,8 +35,8 @@ sass:
 
 permalink: pretty
 
-collections:
-  projects:
+#collections:
+#  projects:
 
 defaults:
   -
