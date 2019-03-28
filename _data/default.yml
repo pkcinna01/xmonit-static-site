@@ -7,6 +7,8 @@ nav: # Navbar links
     url: '/#services'
   - title: About
     url: '/#about'
+  - title: News
+    url: '/news'
   - title: Articles
     url: '/articles'
   - title: Contact

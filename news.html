@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /articles
-title: Articles
-description: Technical opinions, reviews, and information.
+permalink: /news
+title: News
+description: News and Events related to X-Monit
 ---
-{%- for post in site.categories.articles -%}
+{%- for post in site.categories.news -%}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
       <h3>{{ post.title }}</h3>

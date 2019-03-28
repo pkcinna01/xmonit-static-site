@@ -25,14 +25,15 @@ facebook_username:  pkcinna01
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-startbootstrap-agency
+#theme: jekyll-theme-startbootstrap-agency
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass: 
   style: compressed 
 
-//permalink: pretty
+permalink: pretty
 
 collections:
   projects:
