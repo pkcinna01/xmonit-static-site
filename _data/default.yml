@@ -23,7 +23,7 @@ social-buttons: # Footer social buttons
     url: 'https://bitbucket.org/xmonit/'
   - icon: "fa fa-twitter"
     url: 'https://twitter.com/pkcinna01'
-  - icon: "fa fa-facebook"
-    url: 'https://www.facebook.com/pkcinna01'
+#  - icon: "fa fa-facebook"
+#    url: 'https://www.facebook.com/pkcinna01'
 
 modal: # Modal strings for l10n

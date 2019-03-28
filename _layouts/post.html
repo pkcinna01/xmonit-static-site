@@ -20,8 +20,7 @@ layout: default
                 {% if page.description %}
                 <span class="subheading">x{{ page.description }}</span>
                 {% else %}
-                <span class="subheading">{{ page.date | date: '%B %d, %Y' }} - <a href="/author/todo">
-                  {{page.author}}</a></span>
+                <span class="subheading">{{ page.date | date: '%B %d, %Y' }} - {{ page.author}}</span>
                 {% endif %}
               </div>
             </div>
