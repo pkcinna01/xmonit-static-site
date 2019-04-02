@@ -2,7 +2,7 @@ intro: # Master header text
 
 
 list:
-  - icon: fa-files-o
+  - icon: fa-github
     name: "EPever Tracer Modbus Java Client"
     img: "img/epever-charge-controller.png"
     url: "https://github.com/pkcinna01/epever-solar-modbus"

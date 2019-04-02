@@ -13,6 +13,8 @@ nav: # Navbar links
     url: '/news'
   - title: Articles
     url: '/articles'
+  - title: WIKI
+    url: 'https://wiki.xmonit.com'
   - title: Contact
     url: '/#contact'
 
