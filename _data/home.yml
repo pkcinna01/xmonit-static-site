@@ -31,11 +31,8 @@ portfolio: # portfolio section
 about: # About section
   heading: About
   subheading: >- 
-    X-Monit was founded informally in January of 2017.  
-    Paul Cinnamond is the owner and primary software developer.  He has over 20 years experience with projects
-    in banking, telecom and the military.  Projects in these fields require thorough background checks and sometimes TSI (top secret) clearence.  X-Monit can provide affordable
-    solutions where high security or confidentiality make offshore development too risky.<br/><br/>
-    Phone, Skype, or in person consultations allow X-Monit and clients to establish trust and confidence.
+    X-Monit was founded informally in January of 2017.
+    
   timeline: # List
   //  - image: [Image path]
   //    date: [Date]
