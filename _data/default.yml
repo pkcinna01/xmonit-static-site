@@ -9,12 +9,12 @@ nav: # Navbar links
     url: '/#about'
   - title: Projects
     url: '/#projects'
-  - title: News
-    url: '/news'
-  - title: Articles
-    url: '/articles'
-  - title: WIKI
-    url: 'https://wiki.xmonit.com'
+  # - title: News
+  #   url: '/news'
+  # - title: Articles
+  #   url: '/articles'
+  # - title: WIKI
+  #   url: 'https://wiki.xmonit.com'
   - title: Contact
     url: '/#contact'
 
@@ -22,7 +22,7 @@ copyright: "© 2019, XMonit.com"
 
 social-buttons: # Footer social buttons
   - icon: "fa fa-github"
-    url: 'https://github.com/pkcinna01' 
+    url: 'https://github.com/pkcinna01'
   - icon: "fa fa-bitbucket"
     url: 'https://bitbucket.org/xmonit/'
   - icon: "fa fa-twitter"
