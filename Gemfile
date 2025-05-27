@@ -34,4 +34,5 @@ gem "rexml"
 gem "webrick"
 gem "csv"
 gem "logger"
+gem "base64"
 
